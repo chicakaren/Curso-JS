@@ -1,4 +1,4 @@
-/* 1.Convertir de libras a kilogramos*/
+// 1.Convertir de libras a kilogramos
 
 let libras = 127;
 let kg = 0 ;
@@ -8,7 +8,7 @@ kg = libras / 2.2046;
 console.log( 'conversión de libras: ' + libras + ' a kilogramos redondeado: ' + Math.round(kg));
 
 
-/* 2.Convertir de kilometros a millas */
+// 2.Convertir de kilometros a millas 
 
 let klm = 20;
 let millas = 0 ;
@@ -18,7 +18,7 @@ let millas = 0 ;
  console.log('La comversion de kilometros a millas es: ' + millas);
  
 
-/* 3.Calcular el área de un triangulo rectángulo */
+// 3.Calcular el área de un triangulo rectángulo 
 
 let base = 10;
 let altura = 5 ;
@@ -27,15 +27,15 @@ let area = base * (altura / 2);
  console.log('el área de un triangulo rectángulo es: ' + area);
 
 
-/* 4.Arreglo con ciclo for*/
+// 4.Arreglo con ciclo for
 
-let numeros = [1, 6, 8, 4, 2, 7, 10, 3, 5 ];
+let numeros1 = [1, 6, 8, 4, 2, 7, 10, 3, 5 ];
 let numeroMayor = 0;
  
-for (let i = 0; i < numeros.length; i++) {
+for (let i = 0; i < numeros1.length; i++) {
 
-    if (numeros [i] >= numeroMayor) {
-       numeroMayor = numeros[i];
+    if (numeros1 [i] >= numeroMayor) {
+       numeroMayor = numeros1[i];
         
     }
     
@@ -45,10 +45,10 @@ for (let i = 0; i < numeros.length; i++) {
 console.log('el numero mayor es: ' + numeroMayor);
 
 
-/* 5.Arreglo con impresion de consola:
-número es un número impar
-número es un número par	
-Debe de utilizar un ciclo FOR para generar dicha impresión */
+// 5.Arreglo con impresion de consola:
+//número es un número impar
+//número es un número par	
+//Debe de utilizar un ciclo FOR para generar dicha impresión 
 
 let numeros = [1, 6, 8, 4, 2, 7, 10, 3, 5 ];
  
@@ -67,7 +67,7 @@ for (let i = 0; i < numeros.length; i++) {
  
 
 
-/* 6.Imprimir una tabla */
+// 6.Imprimir una tabla 
 for (let i = 1; i <= 5; i++) {
 
     let reglon ='';
@@ -80,7 +80,7 @@ for (let i = 1; i <= 5; i++) {
 
 
 
-/* 7.Crear una función que reciba 3 argumentos numérico*/
+// 7.Crear una función que reciba 3 argumentos numérico
  
 function max(a,b,c) {
    let mayor = 0;
@@ -98,7 +98,7 @@ else
  console.log('El numero mayor es: ' + mayor);
 
 
-/* 8.Crear una función para determinar el nombre más largo*/
+//8.Crear una función para determinar el nombre más largo
  
 function nombreLargo(arreglo) {
 let largo = '';
@@ -115,12 +115,12 @@ for (let i = 0; i < arreglo.length; i++) {
     
 }
 
-let heroes = ['Deadpool', 'Ciclope', 'Magneto', 'Profesor Charles Xavier'];
-let heroeLargo = nombreLargo( heroes );
+let heroess = ['Deadpool', 'Ciclope', 'Magneto', 'Profesor Charles Xavier'];
+let heroeLargo = nombreLargo( heroess );
 console.log( heroeLargo );
 
 
-/* 9.Crear una función  para filtrar nombres*/
+// 9.Crear una función  para filtrar nombres
  
 function filtrarPorLetra(arreglo, letra) {
     let nuevoArreglo = [];
